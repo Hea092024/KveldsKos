@@ -1,5 +1,6 @@
 body {
   background-color: aqua;
+  
 }
 
 img {
@@ -10,5 +11,40 @@ img {
   left: 10px;
 }
 .Passiv {
+  color: rgb(212, 44, 32);
+  background-color:rgb(255, 255, 255);
+}
+
+.Q-Ability{
   color: blue;
+  background-color:rgb(255, 255, 255);
+}
+
+.W-Ability{
+  color: green;
+  background-color:rgb(255, 255, 255);
+}
+
+.E-Ability{
+  color: purple;
+  background-color:rgb(255, 255, 255);
+}
+
+.R-Ability{
+  color: rgb(213, 240, 8);
+  background-color:rgb(0, 0, 0);
+}
+
+.details-container{
+
+  font-family: cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-container{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-bottom: 25px;
 }

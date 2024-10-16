@@ -9,11 +9,13 @@
   <body>
     <main>
       <article>
-        <audio controls autoplay>
-          <source
-            src="./assets/DjSona1.ogg"
-            type="audio/mpeg"
-          />
+        <div class="details-container">
+          <h1 class="name">Sona</h1>
+          <h2 class="occupation">Maven of the Strings</h2>
+        </div>
+
+        <audio controls autoplay muted>
+          <source src="./assets/DjSona1.ogg" type="audio/mpeg" />
         </audio>
 
         <img
@@ -21,11 +23,52 @@
           alt="a dancing of DJ Sona"
         />
 
-        <button class="Passiv">Passiv</button>
-        <button class="Q-Ability">Q-Ability</button>
-        <button class="W-Ability">W-Ability</button>
-        <button class="E-Ability">E-Ability</button>
-        <button class="R-Ability">R-Ability</button>
+        <div class="button-container">
+          <button class="Passiv">Passiv</button>
+          <em class="hover-text"
+            >Accelerando: Sona gains non-Ultimate ability haste permanently for
+            her basic abilities as she uses her abilities well, up to a cap.
+            Beyond that cap, further successful uses reduce her ultimate's
+            remaining cooldown instead. Power Chord: Every few spell casts,
+            Sona's next attack will deal bonus magic damage in addition to an
+            additional effect based on what basic Ability Sona last
+            activated.</em
+          >
+        </div>
+        <div class="button-container">
+          <button class="Q-Ability">Q-Ability</button>
+          <em class="hover-text"
+            >Sona plays the Hymn of Valor, sends out bolts of sound, dealing
+            magic damage to two nearby enemies, prioritizing champions and
+            monsters. Sona gains a temporary aura that grants allies tagged by
+            the zone bonus damage on their next attack against enemies.</em
+          >
+        </div>
+        <div class="button-container">
+          <button class="W-Ability">W-Ability</button>
+          <em class="hover-text"
+            >Sona plays the Hymn of Valor, sends out bolts of sound, dealing
+            magic damage to two nearby enemies, prioritizing champions and
+            monsters. Sona gains a temporary aura that grants allies tagged by
+            the zone bonus damage on their next attack against enemies.</em
+          >
+        </div>
+        <div class="button-container">
+          <button class="E-Ability">E-Ability</button>
+          <em class="hover-text"
+            >Sona plays the Song of Celerity, granting nearby allies bonus Move
+            Speed. Sona gains a temporary aura that grants allied champions
+            tagged by the zone bonus Move Speed.</em
+          >
+        </div>
+        <div class="button-container">
+          <button class="R-Ability">R-Ability</button>
+          <em class="hover-text"
+            >Sona plays her ultimate chord, stunning enemy champions and forcing
+            them to dance and dealing magic damage to them. Each rank reduces
+            the base cooldown of Sona's basic abilities.</em
+          >
+        </div>
       </article>
     </main>
   </body>
