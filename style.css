@@ -49,3 +49,13 @@ img {
   margin-bottom: 25px;
 }
 
+  .hover-text {
+        display: none; 
+        position: absolute; 
+        background: rgba(0, 0, 0, 0.8); 
+        color: white; 
+      }
+
+       .button-container:hover .hover-text {
+        display: block;
+      }
