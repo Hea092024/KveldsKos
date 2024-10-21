@@ -45,8 +45,8 @@ img {
 
 .button-container {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-bottom: 25px;
+  font-size: 15px;
+  margin: auto;
 }
 
 .hover-text {
@@ -60,7 +60,7 @@ img {
   display: block;
 }
 
-/* Keyframes får frem animasjon i shadow osv */
+/* By using @keyframes, you control how an element appears over time, enabling dynamic and visually appealing effects in your web design. */
 
 @keyframes sparkle {
   0%,
